@@ -32,8 +32,8 @@ $(document).keydown(function() {
       $('.ryu-cool').show();
  }).keyup(function() {
       $('.ryu-ready').hide();
-      $('.ryu-still').show();
       $('.ryu-cool').hide();
+      $('.ryu-still').show();      
 });
 
 function playHadouken () {
